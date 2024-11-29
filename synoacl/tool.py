@@ -362,7 +362,7 @@ class SynoACLTool(object):
     """
 
     _SYNOACL_CMD = "synoacltool"
-    _SYNOACL_REGEX = re.compile(r"^\t *\[([0-9]+)\] +([^ ]+) +\(level:([0-9]+)\)$")
+    _SYNOACL_REGEX = re.compile(r"^\t *\[([0-9]+)\] +(.+?) +\(level:([0-9]+)\)$")
     _ARCHIVE_REGEX = re.compile(r"^Archive: (.+)$")
 
     @staticmethod
